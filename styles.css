@@ -1,0 +1,139 @@
+@media screen and (min-width: 500px) {
+    body{
+        background-color: white;
+        width: 100%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        top: 0%;
+        position: fixed;
+        width: 98%;
+        justify-content: space-between;
+    }
+    .link, .link2, .link3{
+        margin-top: 16px;
+        text-decoration: none;
+        color: grey;
+    }
+    a:hover{
+        color: aquamarine;
+    }
+    .icon{
+        flex-basis: 40%;
+    }
+    .one{
+        margin-top: 100px;
+        display: block;
+        text-align: center;
+        font-weight: lighter;
+        color: aquamarine;
+        width: 90%;
+        }
+    .two{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        width: 90%;
+    }   
+    .paraa{
+        margin-right: 10%;
+        text-align: justify;
+    }
+    .three{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2%;
+    }
+    .parac{
+        background-color: aquamarine;
+        border: 1px solid;
+        border-radius: 10%;
+    }
+    .parad{
+        background-color: aqua;
+        border-radius: 10%;
+    }
+    .parae{
+        background-color: darkblue;
+         border-radius: 10%;
+    }
+    .bold{
+        display: block;
+        margin-top: 13px;
+        font-weight: bolder;
+    }
+    .parac,.parad,.parae{
+        margin-right: 2%;
+        margin-left: auto;
+        overflow: hidden;
+        border: 1px solid;
+        text-align: center;
+        text-indent: 2%;
+    }
+    .seven{
+        text-align: center;
+        font-size: xx-large;
+        color: aquamarine;
+    }
+    .eight{
+       text-align: center; 
+       color: black;
+    }
+    .top{
+        display: block;
+        font-size: x-large;
+        margin-bottom: 4%;
+        color: aquamarine;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .flexa,.flexb,.flexc,.flexd{
+       border: 1px solid;
+       margin-right:3% ;
+       overflow: hidden;
+       padding: 10px 10px 10px 10px;
+    }
+    .spana,.spanb,.spanc,.spand{
+        display: block;
+        color: aquamarine;
+    }
+    .nine{
+        display: block;
+        margin-top: 4%;
+
+    }
+    .spane{
+        display: block;
+        color: aquamarine;
+        text-align: center;
+        font-size: xx-large;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .ten{
+        display: block;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    .eleven{
+        display: block;
+        text-align: center;
+        font-size: xx-large;
+    }
+    button{
+        display: block;
+        text-align: center;
+    }
+    footer{
+        display: block;
+        text-align: center;
+    }
+    .spanz{
+        display: block;
+            text-align: center;
+    }
+}
